@@ -1,0 +1,33 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #272829;
+    max-height: 120vh;
+    box-sizing: border-box;
+}
+.pic{
+    border-radius: 100%;
+    border: 8px solid #2c2f3f;
+    height: 120px;
+    width: 120px; 
+    
+}
+.meryam{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.mt{
+    margin-top:20px
+}
+
+.myPic{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  
+}
