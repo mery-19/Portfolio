@@ -5,8 +5,9 @@
 }
 body{
     background-color: #272829;
-    max-height: 120vh;
-    box-sizing: border-box;
+    max-height: 120%;
+    /* box-sizing: border-box; */
+  
 }
 .pic{
     border-radius: 100%;
@@ -24,10 +25,45 @@ body{
     margin-top:20px
 }
 
-.myPic{
+.myPic, .icons{
     display:flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
   
 }
+.btn{
+    background-color: #6b6d75;
+    border-radius: 100%;
+    margin: 3px;
+}
+ul{
+    display:block;
+}
+
+ul li{
+    color: white;
+    font-size: 18px;
+    padding: 30px 0 0 30px;  
+}
+
+ul li a{
+color: white;
+}
+ul li a:hover{
+    text-decoration: none;
+    color: #6b6d75;
+    transition: 0.8s ease;
+}
+
+#fix {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0em;
+    background: #2c2f3f;
+    padding: 15px;
+  }
+  
+ 
