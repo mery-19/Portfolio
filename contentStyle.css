@@ -100,3 +100,43 @@
     height: 100vh;
     background-color: white;
 }
+
+.imgCertificate{
+    height: 40vh;
+    width: 50vh;
+    border:2px solid #5199FF;
+    /* cursor:pointer; */
+  
+}
+#certificate h3{
+    color: rgb(130, 131, 138);
+    padding: 10px 0 0 10px;
+    margin: 50px  0 50px 25px ;
+    border-left: 6px solid #5199FF;
+}
+
+
+
+.hoverimg1, .hoverimg2{
+    display: none;
+    position: absolute;
+    height: 40vh;
+    width: 50vh;
+    background-color: rgba(81, 153, 255,0.8);
+    cursor: pointer;
+}
+
+
+.desc{
+    color: white;
+    text-align: center;
+    padding: 22px;
+    font-weight: bold;
+}
+.desc p{
+    font-size: 15px;
+}
+.desc a{
+    color: white;
+    font-weight: bold;
+}
