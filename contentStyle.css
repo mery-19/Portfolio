@@ -97,7 +97,7 @@
 
 #certificate
 {
-    height: 100vh;
+    min-height: 100vh;
     background-color: white;
 }
 
@@ -139,4 +139,42 @@
 .desc a{
     color: white;
     font-weight: bold;
+}
+
+.projet{
+    height: 100vh;
+    background-color: white;
+}
+.projet hr{
+    width: 80%;
+    margin: 0 auto;
+    height:30px;
+   
+}
+
+#contact{
+
+    min-height: 100vh;
+    background-color: rgba(81, 153, 255,0.8);
+    padding: 5%;
+
+}
+
+.form{
+    width: 60%;
+    height: 80%;
+    margin: auto;
+    margin-top:20px;
+    
+    background-color: white;
+    justify-content: center;
+}
+
+textarea{
+    width: 100%;
+  
+}
+
+.btnt{
+    text-align: center;
 }
