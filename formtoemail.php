@@ -1,12 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>send success</title>
+</head>
 
+<style>
+div{
+    background-color: rgba(81, 153, 255,0.8);
+    height:30vh;
+    width:80%;
+    margin:0 auto;
+    margin-top: 10vh;
+    padding:20px;
+    text-align:center;
+    font-size:30;
+    color:white;
 
+}
+
+</style>
+<body>
 
 <?php
 
     $name=$_POST['FirstName'];
     $visitor_email=$_POST['email'];
     $message=$_POST['message'];
-    echo $name;
 
     if(empty($name) || empty($visitor_email))
     {
@@ -26,8 +47,12 @@
     //send the email:
     mail($to,$email_subject,$email_body,$headers);
 
+    $msg="Hello ".$name." your message successfuly send <br> thank you for visiting our website";
 
-
-
+    echo "<div> <p>".$msg."</p></div>";
 
 ?>
+
+</body>
+</html>
+

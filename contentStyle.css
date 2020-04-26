@@ -108,7 +108,13 @@
     /* cursor:pointer; */
   
 }
-#certificate h3{
+#certificate  h3 {
+    color: rgb(130, 131, 138);
+    padding: 10px 0 0 10px;
+    margin: 50px  0 50px 25px ;
+    border-left: 6px solid #5199FF;
+}
+.projectTitle{
     color: rgb(130, 131, 138);
     padding: 10px 0 0 10px;
     margin: 50px  0 50px 25px ;
@@ -144,6 +150,7 @@
 .projet{
     height: 100vh;
     background-color: white;
+    margin: 22px;
 }
 .projet hr{
     width: 80%;
@@ -177,4 +184,18 @@ textarea{
 
 .btnt{
     text-align: center;
+}
+
+.card-title{
+    background-color: rgba(81, 153, 255,0.8);
+}
+
+.card .btn{
+    background-color:rgba(81, 153, 255,0.8 );
+    color: white;
+    font-weight: bold;
+}
+
+.card{
+   height: 90%;
 }
